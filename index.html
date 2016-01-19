@@ -1,23 +1,39 @@
----
-layout: default
----
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>curtbrown.ca</title>
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic,700|Oswald:300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <header>
+   <img src="images/cb-logo.svg" width="100" id="logo" alt="">
+   <p>Hi. My name is Curt Brown. I'm a designer and front-end developer currently living in Kitchener, Ontario, Canada.</p>
+ </header>
+ <div class="row">
+   <div class="summary">
+     <h2>Malton Seventh-day Adventist Church</h2>
+     <h3>Branding &#8226; Web Design</h3>
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, assumenda dolorem doloremque adipisci quis at!</p>
+     <p>Nihil voluptate reprehenderit error iste similique asperiores dicta corporis quia dolore enim ducimus, maiores ut.</p>
+     <p>Velit adipisci quos expedita rem, doloremque similique, aperiam numquam ipsum ex, consectetur explicabo, voluptatum! Dolorem!</p>
+   </div>
+   <div class="graphics">
+     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit quasi magni, beatae tenetur obcaecati quibusdam, quod? Adipisci aliquid quidem, perspiciatis?</p>
+   </div>
+   <div class="clearfix"></div>
+ </div>
+ <div class="row">
+   <div class="summary">
+     <h2>Humber College</h2>
+     <h3>Graphic Design &#8226; Social &#8226; UX</h3>
+   </div>
+   <div class="graphics">
+     <img src="images/foursquare-banner.jpg" alt="">
+   </div>
+ </div>
+ <div class="row"></div>
+  
+</body>
+</html>
