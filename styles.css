@@ -56,7 +56,7 @@ h3 {
 .row {
   min-height: 300px;
   border-top: 1px solid #ccc;
-  padding: 60px 30px;
+  padding: 60px 7%;
 }
 
 .summary, .graphics {
@@ -81,7 +81,7 @@ h3 {
 
 header {
   text-align: center;
-  padding: 30px;
+  padding: 60px 7%;
 }
 
 header p {
