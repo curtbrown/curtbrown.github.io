@@ -5,6 +5,29 @@ body {
   color: #333;
 }
 
+a {
+  color: #837246;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #777;
+}
+
+iframe {
+  width: 100%;
+}
+
+figure {
+  padding: 0;
+  margin: 0 0 30px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+figure:last-child {
+  border-bottom: none;
+}
+
 h1,
 h2,
 h3,
@@ -18,31 +41,6 @@ h2 {
   font-family: Oswald, Impact, Roboto, sans-serif;
 }
 
-h1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  text-align: center;
-}
-
-h1:before,
-h1:after {
-  background-color: #ddd;
-  content: '\a0';
-  flex-grow: 1;
-  height: 1px;
-  position: relative;
-  top: 0.5em;
-}
-
-h1:before {
-  margin-right: 10px;
-}
-
-h1:after {
-  margin-left: 10px;
-}
-
 h2 {
   font-size: 32px;
   line-height: 120%;
@@ -53,13 +51,27 @@ h3 {
   font-style: italic;
 }
 
+header {
+  text-align: center;
+  padding: 60px 7%;
+}
+
+header p {
+  font-size: 24px;
+  color: #777;
+}
+
+#logo {
+  margin: auto;
+  text-align: center;
+  width: 70px;
+  border: 0;
+}
+
 .row {
   min-height: 300px;
   border-top: 1px solid #ccc;
   padding: 60px 7%;
-}
-
-.summary, .graphics {
 }
 
 .summary {
@@ -79,23 +91,16 @@ h3 {
   max-width: 100%;
 }
 
-header {
-  text-align: center;
-  padding: 60px 7%;
-}
-
-header p {
-  font-size: 24px;
-  color: #777;
-}
-
-#logo {
-  margin: auto;
-  text-align: center;
-  width: 70px;
-  border: 0;
-}
-.clearfix {  
+.clearfix {
   clear: both;
   float: none;
+}
+
+@media (max-width: 700px) {
+  .summary,
+  .graphics {
+    float: none;
+    padding: 0;
+    width: 100%;
+  }
 }
