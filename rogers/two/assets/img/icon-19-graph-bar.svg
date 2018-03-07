@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+    <style>
+        @import url(styles.css);
+    </style>
+    <path class="icon-colour" d="M26.893 43.57h6.216V25.32h-6.22v18.25zm8.89-27.14v27.14H42V16.43h-6.217zM18 43.57h6.217v-9.357H18v9.357z" fill="#FFF"/>
+</svg>

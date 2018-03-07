@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+    <style>
+        @import url(styles.css);
+    </style>
+    <g fill="#FFF">
+        <path class="icon-colour" d="M35.25 26.5l8.75-7v21l-8.75-7z"/>
+        <path class="icon-colour" d="M33.5 19.5h-14A3.5 3.5 0 0 0 16 23v14a3.5 3.5 0 0 0 3.5 3.5h14A3.5 3.5 0 0 0 37 37V23a3.5 3.5 0 0 0-3.5-3.5zM23 35.25v-10.5L33.5 30 23 35.25z"/>
+    </g>
+</svg>

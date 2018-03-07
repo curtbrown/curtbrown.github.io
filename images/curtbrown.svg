@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 564 124" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-358,-110)">
+        <g transform="matrix(1,0,0,2.18244,0,0)">
+            <g transform="matrix(1,0,0,0.4928,190.881,-420.972)">
+                <g transform="matrix(1.07529,0,0,1,-15.2134,0)">
+                    <text x="202.076px" y="1039.79px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:66.945px;fill:rgb(41,25,5);">C</text>
+                </g>
+                <g transform="matrix(1.07529,0,0,1,-19.2021,0)">
+                    <text x="255.057px" y="1039.79px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:66.945px;fill:rgb(41,25,5);">U</text>
+                </g>
+                <g transform="matrix(1.07529,0,0,1,-23.0932,0)">
+                    <text x="306.743px" y="1039.79px" style="font-family:'Montserrat-Regular', 'Montserrat';font-size:66.945px;fill:rgb(41,25,5);">R<tspan x="354.856px " y="1039.79px ">T</tspan></text>
+                </g>
+                <g transform="matrix(1.07529,0,0,1,-30.2615,0)">
+                    <text x="401.957px" y="1039.79px" style="font-family:'Montserrat-Bold', 'Montserrat';font-weight:700;font-size:66.945px;fill:rgb(41,25,5);">BR<tspan x="496.316px 550.928px " y="1039.79px 1039.79px ">OW</tspan>N</text>
+                </g>
+            </g>
+            <g transform="matrix(0.875,0,0,0.458202,45,-3.66562)">
+                <rect x="360" y="120" width="640" height="120" style="fill:none;stroke:rgb(41,25,5);stroke-width:4.26px;"/>
+            </g>
+        </g>
+    </g>
+</svg>

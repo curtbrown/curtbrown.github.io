@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
+    <style>
+        @import url(styles.css);
+    </style>
+    <g fill="#FFF">
+        <circle cx="36.767" cy="26.005" r="2.139"/>
+        <path class="icon-colour" d="M14 18.716v22.57h32v-22.57H14zm29.065 2.937h.093v14.063h-4.113c-2.907-2.52-7.407-6.458-7.407-6.458l-2.27 3.933-6.304-6.7-4.284 7.926v1.303h-1.844l-.002-14.064h26.13z"/>
+    </g>
+</svg>
